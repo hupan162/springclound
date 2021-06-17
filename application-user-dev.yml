@@ -1,0 +1,7 @@
+spring:
+#数据库配置
+  datasource:
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost:3306/hupan?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
